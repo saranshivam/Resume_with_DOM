@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: rgb(41, 41, 41);
+    height: 300px;
+    width: 85%;
+    margin: auto;
+}
+#brain_image{
+    border: 8px dotted orange;
+    border-radius: 50%;
+}
+#image{
+    margin: auto;
+    padding-top: 30px;
+    display: grid;
+    place-items: center;
+}
+#NameBox{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+}
+#Name{
+    background-color: orange;
+    height: 70px;
+    width: 350px;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    position: relative;
+    bottom: 16px;
+}
+#navbar{
+    font-size: 1.5em;
+    text-align: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    height: 1.4em;
+    width: 85%;
+    margin: auto;
+}
+.user{
+    font-size: 2.7em;
+    color: rgb(0, 0, 0);
+}
+#content{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5em;
+}
+#left{
+    width: 50%;
+    margin-right: 2em;
+}
+.profiletitle{
+    display: flex;
+    align-items: center;
+}
+.profileName{
+    margin-left: 1em;
+    font-size: 1.4em;
+}
+.profilelogo{
+    border: 8px dotted orange;
+    border-radius: 50%;
+}
+.firstcontent{
+    font-size: 1.4em;
+    text-align: justify;
+    margin-top: 0.5em;
+}
+#skills{
+    margin-top: 1.5em;
+}
+.techname{
+    text-align: center;
+}
+.jsdiv{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    align-items: center;
+}
+#right{
+    width: 50%;
+    padding-left: 2em;
+    border-left: 1px solid black;
+}
+.subheading{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    font-size: 1.4em;
+}
+.pointthree{
+    font-size: 1.4em;
+}
+.list{
+    margin-top: 0.5em;
+    margin-left: 2em;
+    font-size: 1.5em;
+    text-align: justify;
+}
+#workexp1{
+    margin-top: 1.5em;
+}
+#education{
+    margin-top: 1.5em;
+}
+.pointfive1{
+    font-size: 1.4em;
+    margin-top: 1em;
+    text-align: justify;
+}
+#sevendiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.2em;
+    font-size: 1.4em;
+}
+.pointseven2{
+    font-size: 1.4em;
+    margin-bottom: 2em;
+}
+.addname{
+    text-align: center;
+}
